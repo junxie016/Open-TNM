@@ -57,8 +57,12 @@ Yu (Marco) Nie and Jun Xie reserve the right to the final interpretation of this
 This package is written and maintained by the open-TNM Core Team. The current members are:
 
   Yu(Marco) Nie
+  
   Jun Xie
+  
   Zhandong Xu
+  
   Liyang Feng
+  
   Qianni Wang
 
