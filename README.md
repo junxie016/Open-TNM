@@ -35,26 +35,26 @@ Initialization(), Mainloop(), Postprocess() successively and check Terminate() w
 Then use Report() to output the iteration and equilibrium results.
 
 # License
+Copyright (c) 2023 Yu (Marco) Nie and Jun Xie.  All rights reserved.
 
-      Copyright (c) 2023 Yu (Marco) Nie and Jun Xie.  All rights reserved.
+This open Toolkit of Network Modeling (open-TNM) is provided "as is," without warranty of any kind, express or implied.  
+In no event shall the author or contributors be held liable for any damages arising in any way from the use of this toolkit.
 
-      This open Toolkit of Network Modeling (open-TNM) is provided "as is," without warranty of any kind, express or implied.  
-      In no event shall the author or contributors be held liable for any damages arising in any way from the use of this toolkit.
+The contents of this file are DUAL-LICENSED. You may modify and/or redistribute these codes according to the following restrictions:
 
-      The contents of this file are DUAL-LICENSED. You may modify and/or redistribute these codes according to the following restrictions:
+1. Personal and Academic Use License (GNU GPL v2 or later)
 
-      1. Personal and Academic Use License (GNU GPL v2 or later)
+Individuals and academic users are granted the free right to obtain, use, copy, modify, and distribute these codes and its documentation, provided that all copies or substantial portions of the Software must include the notice of copyright and this license agreement.
 
-     Individuals and academic users are granted the free right to obtain, use, copy, modify, and distribute these codes and its documentation, provided that all copies or substantial portions of the Software must include the notice of copyright and this license agreement.
+2. Commercial Use Additional License
 
-      2. Commercial Use Additional License
-
-      Commercial users must obtain an additional written license before obtaining, using, copying, modifying, or distributing the codes in this toolkit. Please contact Yu (Marco) Nie (y-nie@northwestern.edu) or Jun Xie (jun.xie@swjtu.edu.cn) to obtain a commercial use license.
+Commercial users must obtain an additional written license before obtaining, using, copying, modifying, or distributing the codes in this toolkit. Please contact Yu (Marco) Nie (y-nie@northwestern.edu) or Jun Xie (jun.xie@swjtu.edu.cn) to obtain a commercial use license.
       
-      Yu (Marco) Nie and Jun Xie reserve the right to the final interpretation of this license agreement.
+Yu (Marco) Nie and Jun Xie reserve the right to the final interpretation of this license agreement.
+      
 
-  # Core Teams
-  This package is written and maintained by the open-TNM Core Team. The current members are:
+# Core Teams
+This package is written and maintained by the open-TNM Core Team. The current members are:
 
   Yu(Marco) Nie
   Jun Xie
