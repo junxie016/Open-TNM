@@ -10,6 +10,8 @@
 
 # How to Cite
 
-Jun Xie, Yu (Marco) Nie and Xiaobo Liu. An implementation of the greedy path-based algorithm for traffic assignment. https://github.com/bstabler/TransportationNetworks. Accessed Month, Day, Year.
+Jun Xie, Yu (Marco) Nie and Xiaobo Liu. An implementation of the greedy path-based algorithm for traffic assignment. https://github.com/junxie016/open-TNM/tree/main/Greedy. Accessed Month, Day, Year.
 
-# How to Cite
+# Publication
+
+Xie J, Nie Y, Liu X. A greedy path-based algorithm for traffic assignment. Transportation Research Record. 2018 Dec;2672(48):36-44.
