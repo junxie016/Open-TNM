@@ -12,8 +12,7 @@
 
 • You can download more transportation test networks from https://github.com/bstabler/TransportationNetworks and put them in ‘./Greedy/Network/’.
 
-• Note that different networks have different "Generalized Cost Weights", modify the parameters in SetCostCoef() accordingly if you want to obtain the same solution.
-
+• Please note that different networks feature distinct 'Generalized Cost Weights'. If you aim to reproduce the solution reported in the network, ensure to adjust the parameters in the SetCostCoef() function accordingly.
 
 # How to Cite
 
