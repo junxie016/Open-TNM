@@ -41,7 +41,7 @@ Yu (Marco) Nie and Jun Xie reserve the right to the final interpretation of this
       
 
 # Core Teams
-This package is written and maintained by the open-TNM Core Team. The current members are:
+This package is written and maintained by the Open-TNM Core Team. The current members are:
 
   Yu(Marco) Nie   (Northwestern University)
   
