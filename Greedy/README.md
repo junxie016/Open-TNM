@@ -4,9 +4,16 @@
 
 • The main function is in ‘TNADriver.cpp’.
 
-• modify the parameters in the TestGreedy function.
+• Modify the parameters in the TestGreedy function.
 
-• use "Ctrl + F5 " to compile and execute the code.
+• Use "Ctrl + F5 " to compile and execute the code.
+
+# How to Run Other Test Problems
+
+• You can download more transportation test networks from https://github.com/bstabler/TransportationNetworks and put them in ‘./Greedy/Network/’.
+
+• Note that different networks have different "Generalized Cost Weights", modify the parameters in SetCostCoef() accordingly if you want to obtain the same solution.
+
 
 # How to Cite
 
