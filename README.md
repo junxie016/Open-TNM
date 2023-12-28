@@ -43,15 +43,15 @@ Yu (Marco) Nie and Jun Xie reserve the right to the final interpretation of this
 # Core Teams
 This package is written and maintained by the open-TNM Core Team. The current members are:
 
-  Yu(Marco) Nie   Northwestern University
+  Yu(Marco) Nie   (Northwestern University)
   
-  Jun Xie         Southwest Jiaotong University
+  Jun Xie         (Southwest Jiaotong University)
   
-  Zhandong Xu     Southwest Jiaotong University
+  Zhandong Xu     (Southwest Jiaotong University)
   
-  Liyang Feng     Southwest Jiaotong University
+  Liyang Feng     (Southwest Jiaotong University)
   
-  Qianni Wang     Northwestern University
+  Qianni Wang     (Northwestern University)
 
 
 
