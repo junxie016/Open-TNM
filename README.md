@@ -16,7 +16,7 @@ The network classes are defined as TNM SNET classes in TNM (‘TNM NET.h’ ). T
 
 • SCANLIST: Scanlist is introduced into TNM to accommodate different labeling shortest path problem algorithms.
 
-The buffer attributes of each class serve as repositories for data pertinent to the object, essential for algorithmic calculations. The traffic assignment algorithms are derived from the TNM TAP algorithm class, as defined in the 'TNM Algorithm.h' file.
+The buffer attributes of each class serve as repositories for data pertinent to the object, essential for algorithmic calculations. The traffic assignment algorithms are derived from the TNM_TAP algorithm class, as defined in the 'TNM Algorithm.h' file.
 This head file also encompasses general attributes and processes crucial for executing traffic assignment algorithms, including convergence accuracy, maximum iteration, and objective function values. In the test functions found in 'xxDriver.cpp,' we instantiate the algorithm, specifying relevant algorithm and network attributes. Subsequently, the network is constructed using the Build() method.
 
 The Solve() process involves executing Preprocess(), Initialization(), Mainloop(), and Postprocess() successively. It also checks Terminate() when necessary. Finally, the Report() method is utilized to output iteration and equilibrium results.
