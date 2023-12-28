@@ -16,14 +16,10 @@ The network classes are defined as TNM SNET classes in TNM (‘TNM NET.h’ ). T
 
 • SCANLIST: Scanlist is introduced into TNM to accommodate different labeling shortest path problem algorithms.
 
-The buffer attributes of each class are used to store data related to the object required for algorithm calculations.
-The traffic assignment algorithms are derived based on the algorithm class TNM TAP in file ‘TNM Algorithm.h’.
-The general attributes and processes related to the execution of the traffic assignment algorithms like
-convergence accuracy, the maximum iteration and objective function value will be defined here. In
-the test functions in ‘trafficDriver.cpp’, we instantiate it and specify some algorithm and network at-
-tributes first. And then build the network using Build(). The Solve() process executes Preprocess(),
-Initialization(), Mainloop(), Postprocess() successively and check Terminate() when necessary.
-Then use Report() to output the iteration and equilibrium results.
+The buffer attributes of each class serve as repositories for data pertinent to the object, essential for algorithmic calculations. The traffic assignment algorithms are derived from the TNM TAP algorithm class, as defined in the 'TNM Algorithm.h' file.
+This head file also encompasses general attributes and processes crucial for executing traffic assignment algorithms, including convergence accuracy, maximum iteration, and objective function values. In the test functions found in 'xxDriver.cpp,' we instantiate the algorithm, specifying relevant algorithm and network attributes. Subsequently, the network is constructed using the Build() method.
+
+The Solve() process involves executing Preprocess(), Initialization(), Mainloop(), and Postprocess() successively. It also checks Terminate() when necessary. Finally, the Report() method is utilized to output iteration and equilibrium results.
 
 # License
 Copyright (c) 2023 Yu (Marco) Nie and Jun Xie.  All rights reserved.
@@ -47,15 +43,15 @@ Yu (Marco) Nie and Jun Xie reserve the right to the final interpretation of this
 # Core Teams
 This package is written and maintained by the open-TNM Core Team. The current members are:
 
-  Yu(Marco) Nie
+  Yu(Marco) Nie   Northwestern University
   
-  Jun Xie
+  Jun Xie         Southwest Jiaotong University
   
-  Zhandong Xu
+  Zhandong Xu     Southwest Jiaotong University
   
-  Liyang Feng
+  Liyang Feng     Southwest Jiaotong University
   
-  Qianni Wang
+  Qianni Wang     Northwestern University
 
 
 
