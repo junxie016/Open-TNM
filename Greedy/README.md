@@ -1,3 +1,15 @@
+# About the Algorithm
+
+The greedy algorithm is a path-based algorithm for the static user equilibrium traffic assignment problem, honored with the 2018 Stalla Dafermos Best Paper Award. Path-based algorithms
+are generally considered less efficient than bush-based counterparts, such as Algorithm B, traffic assignment by
+paired alternative segments (TAPAS), and iTAPAS, an improved version of TAPAS, because explicitly storing and manipulating
+paths appears wasteful. However, our numerical experiments indicate that the greedy algorithm can outperform
+TAPAS or iTAPAS by a wide margin. It shares the same Gauss-Seidel decomposition
+scheme with existing path-based algorithms, and delivers a surprising performance, most likely due to its two main features.
+First, it adopts a greedy method to solve the restricted subproblem defined on each origin–destination (O-D) pair. Second,
+instead of sequentially visiting every O-D pair in each iteration, it introduces an intelligent scheme to determine which OD
+pairs need more or less work. The proposed algorithm is also more straightforward to implement than bush-based
+algorithms.
 
 # How to Run the Algorithm
 • Open the solution in ‘./Greedy/Source/TNA/TNA.sln’ using Visual Studio 2012.
