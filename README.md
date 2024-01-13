@@ -2,6 +2,9 @@
 The open-TNM package is an open-source Toolkit of Network Modeling package written in C++ for solving different transportation network problems, including path-based and origin-based algorithms for the user-equilibrium traffic assignment problems,  traffic assignment problems with side constraints, maximum entropy user equilibrium traffic assignment problems, frequency-based transit assignment problems, continuous bi-criteria traffic assignment problems and so on. This package is written and maintained by Yu (Marco) Nie from Northwestern University and Jun Xie from Southwest Jiaotong University.
 
 # Classes Structure
+
+Please refer to the "TNM_Manual.pdf" for a detailed description of the TNM package. A concise introduction to its class structure is as follows: 
+
 The network classes are defined as TNM SNET classes in TNM (‘TNM NET.h’ ). The main network elements include:
 
 • TNM SLINK: It is a basic class used to represent network links. Derived classes like TNM BPRLK support evaluating link travel time using a BPR-type link performance function. Key attributes include tail node, head node, volume, fft (free flow time), capacity, toll, cost (travel time), etc.
