@@ -1,5 +1,7 @@
 # Open-TNM
-The open-TNM package is an open-source Toolkit of Network Modeling package written in C++ for solving different transportation network problems, including path-based and origin-based algorithms for the user-equilibrium traffic assignment problems,  traffic assignment problems with side constraints, maximum entropy user equilibrium traffic assignment problems, frequency-based transit assignment problems, continuous bi-criteria traffic assignment problems and so on. This package is written and maintained by Yu (Marco) Nie from Northwestern University and Jun Xie from Southwest Jiaotong University. As of now, it contains just one traffic assignment algorithm (the greedy algorithm we developed a few years back), but the plan is to gradually release many more in the coming months.
+The open-TNM package is an open-source Toolkit of Network Modeling package written in C++ for solving different transportation network problems, including path-based and origin-based algorithms for the user-equilibrium traffic assignment problems,  traffic assignment problems with side constraints, maximum entropy user equilibrium traffic assignment problems, frequency-based transit assignment problems, continuous bi-criteria traffic assignment problems and so on. This package is written and maintained by Yu (Marco) Nie from Northwestern University and Jun Xie from Southwest Jiaotong University. As of now, it contains just one traffic assignment algorithm, but the plan is to gradually release many more in the coming months.
+
+You might also be interested in reading a preface here: https://sites.northwestern.edu/marconie/2024/01/14/open-tnm/
 
 # Classes Structure
 
