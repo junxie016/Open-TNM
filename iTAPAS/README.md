@@ -3,7 +3,7 @@
 iTAPAS is
 an improved TAPAS algorithm  that enhances
 the original TAPAS mainly in two aspects: (1) a new PAS
-the identification method is proposed; (2) each PAS is only
+identification method is proposed; (2) each PAS is only
 associated with one origin. iTAPAS not only accelerates the
 solution convergence performance by improving the efficiency
 of the PAS identification and flow shift operations, but also
