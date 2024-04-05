@@ -18,6 +18,7 @@ int TestiTAPAS(const string& path, const string& name)
 	itapas->SetInnerConv(1e-12);
 	itapas->totalExcessPrecision = 1e-12;
 	itapas->SetCostCoef(1.0, 0.00); //link generalized cost = time_factor * Link travel time  + distance factor * distance; 1.0 is time factor and 0.0 is distance_factor
+	
 		
 	itapas->DoProportionality = false;
 	itapas->SetCostScalar(60);
@@ -42,7 +43,7 @@ int TestiTAPAS(const string& path, const string& name)
 	itapas->network->ScaleDemand(1.0);
 	itapas->reportIterHistory = true;
 	itapas->reportLinkDetail = true;
-
+	itapas->SetCentroidsBlocked(false);  //to determine whether the shortest path is permitted to traverse through the centroids.
 
 	itapas->EnableReportOrgFlows(true);
 	//	bob->EnableReportInnerIters();

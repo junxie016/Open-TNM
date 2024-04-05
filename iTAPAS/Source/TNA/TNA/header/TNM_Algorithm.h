@@ -85,7 +85,23 @@ public:
 	void			  SetMaxInnerIter(floatType i = 15) {m_maxInnerIter = i;}
 	void              SetMaxIter(int);
 	int				  SetTollType(TNM_TOLLTYPE tl);
-	void              SetCentroidsBlocked(bool cb) {network->centroids_blocked=cb;}//If or not the center is closed when searching for paths
+	void              SetCentroidsBlocked(bool cb) {
+		network->centroids_blocked = cb;
+		if (network->centroids_blocked)
+		{
+			for (int i = 0; i < network->numOfOrigin; i++)
+			{
+				TNM_SORIGIN* orgn = network->originVector[i];
+				//cout<<"o"<<orgn->origin->id<<" ";
+				orgn->origin->SkipCentroid = true;
+				for (int j = 0; j < orgn->numOfDest; j++)
+				{
+					TNM_SDEST* dest = orgn->destVector[j];
+					dest->dest->SkipCentroid = true;
+				}
+			}
+		}
+	}//If or not the center is closed when searching for paths
 	void			  SetCostCoef(double t, double d) 
 	{
 		if(t > 0) timeCostCoefficient = t;
