@@ -24,6 +24,7 @@ matching and branch shift steps.
 # Convergence performance of iTAPAS
 
 The convergence of iTAPAS for computing the Chicago Regional running on a personal laptop is as follows: 
+
   Iter               OFV          ConvIndc              Time (seconds) <br>
        0     69097772.8321         1000.0000           25.5070<br>
        1     27400896.8365            0.1108           87.2080<br>
