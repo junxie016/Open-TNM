@@ -1,0 +1,12 @@
+﻿生成启动时间为 2024/4/27 19:32:54。
+     1>项目“D:\桌面\BSP_algorithms\BSP_algorithms\Source\TNA\TNA\TNA.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(346,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1137,5): warning MSB8012: TargetPath(D:\桌面\BSP_algorithms\BSP_algorithms\Source\TNA\TNA\../../../bin/x64\TNA_x64.dll) does not match the Linker's OutputFile property value (D:\桌面\BSP_algorithms\BSP_algorithms\bin\x64\tnm_x64.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1139,5): warning MSB8012: TargetName(TNA_x64) does not match the Linker's OutputFile property value (tnm_x64). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>Link:
+         TNA.vcxproj -> D:\桌面\BSP_algorithms\BSP_algorithms\Source\TNA\TNA\../../../bin/x64\TNA_x64.dll
+     1>已完成生成项目“D:\桌面\BSP_algorithms\BSP_algorithms\Source\TNA\TNA\TNA.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.04
