@@ -1,0 +1,9 @@
+=================destination,number of origins. org id:demand===========
+Destination	13	4
+1:60,2:40,3:70,4:50
+Destination	20	4
+1:60,2:40,3:70,4:50
+Destination	21	4
+1:60,2:40,3:70,4:50
+Destination	24	4
+1:60,2:40,3:70,4:50

@@ -1,0 +1,7 @@
+shapeid,fromstop,tostop,fft,length
+1,a,d,25,0
+2,a,b,7,0
+2,b,c,6,0
+3,b,c,4,0
+3,c,d,4,0
+4,c,d,10,0

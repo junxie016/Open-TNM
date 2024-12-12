@@ -1,0 +1,16 @@
+﻿  TNM.cpp
+  TNM_Algorithm.cpp
+E:\CTEAP代码\transitCapTL\Source\DllProj\trafficNet\TNM_Algorithm.cpp(588,19): warning C4477: “sprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“std::string”
+E:\CTEAP代码\transitCapTL\Source\DllProj\trafficNet\TNM_Algorithm.cpp(588,19): warning C4477: “sprintf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 3 拥有了类型“unsigned __int64”
+E:\CTEAP代码\transitCapTL\Source\DllProj\trafficNet\TNM_Algorithm.cpp(588,19): message : 请考虑在格式字符串中使用“%zd”
+E:\CTEAP代码\transitCapTL\Source\DllProj\trafficNet\TNM_Algorithm.cpp(621,18): warning C4477: “sprintf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“unsigned __int64”
+E:\CTEAP代码\transitCapTL\Source\DllProj\trafficNet\TNM_Algorithm.cpp(621,18): message : 请考虑在格式字符串中使用“%zd”
+  TNM_EnumIO.cpp
+  TNM_Net.cpp
+  TNM_utility.cpp
+  stdafx.cpp
+  正在生成代码...
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1391,5): warning MSB8012: TargetPath(E:\CTEAP代码\transitCapTL\bin\x64\trafficNet.dll) 与 Linker 的 OutputFile 属性值(E:\CTEAP代码\transitCapTL\bin\x64\tnm_x64.dll)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1393,5): warning MSB8012: TargetName(trafficNet) 与 Linker 的 OutputFile 属性值(tnm_x64)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+    正在创建库 ../../../lib/x64/trafficNet_x64.lib 和对象 ../../../lib/x64/trafficNet_x64.exp
+  trafficNet.vcxproj -> E:\CTEAP代码\transitCapTL\bin\x64\trafficNet.dll

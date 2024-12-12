@@ -1,0 +1,10 @@
+D/compat////
+D/rpc////
+D/sys////
+/dirent.h/1.1.1.1/Wed Jul 13 01:55:17 2005//
+/glutil.h/1.1.1.1/Wed Jul 13 01:55:17 2005//
+/netconfig.h/1.1.1.1/Wed Jul 13 01:55:17 2005//
+/stropts.h/1.1.1.1/Wed Jul 13 01:55:17 2005//
+/syslog.h/1.1.1.1/Wed Jul 13 01:55:17 2005//
+/unistd.h/1.1.1.1/Wed Jul 13 01:55:17 2005//
+/values.h/1.1.1.1/Wed Jul 13 01:55:17 2005//

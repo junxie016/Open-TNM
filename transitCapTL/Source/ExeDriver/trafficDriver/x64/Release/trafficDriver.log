@@ -1,0 +1,13 @@
+﻿生成启动时间为 2023/5/25 22:21:59。
+     1>项目“E:\TNA\Assignment_C\容量约束C++代码\transitCapTL\Source\ExeDriver\trafficDriver\trafficDriver.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\VS2012\VC\bin\x86_amd64\CL.exe /c /I..\..\..\include\tnm /I"..\..\..\include\nlopt-2.4.2-dll64" /I..\..\DllProj\transitNet /I..\..\..\include\randlib /I..\..\..\include\mysql++ /Zi /nologo /W1 /WX- /O2 /Oi /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt trafficDriver.cpp
+         trafficDriver.cpp
+       Link:
+         D:\VS2012\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\bin\x64\trafficDriver.exe" /NOLOGO /LIBPATH:..\..\..\lib\x64 /LIBPATH:..\..\..\lib\x64\randlib /LIBPATH:..\..\..\lib\x64\mysql trafficNet_x64.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\..\..\bin\x64\trafficDriver.pdb" /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\..\bin\x64\trafficDriver.lib" /MACHINE:X64 x64\Release\trafficDriver.obj
+         trafficDriver.vcxproj -> E:\TNA\Assignment_C\容量约束C++代码\transitCapTL\Source\ExeDriver\trafficDriver\..\..\..\bin\x64\trafficDriver.exe
+     1>已完成生成项目“E:\TNA\Assignment_C\容量约束C++代码\transitCapTL\Source\ExeDriver\trafficDriver\trafficDriver.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.86

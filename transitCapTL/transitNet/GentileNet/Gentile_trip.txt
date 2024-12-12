@@ -1,0 +1,3 @@
+=================destination,number of origins. org id:demand===========
+Destination	d	3
+a:300,b:360,c:240

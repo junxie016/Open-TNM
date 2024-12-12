@@ -1,0 +1,35 @@
+﻿  MMCapacity.cpp
+E:\CTEAP代码\transitCapTL\Source\DllProj\transitNet\MMCapacity.cpp(1951,33): warning C4552: ”/“: 未使用表达式结果
+  PTNet.cpp
+E:\CTEAP代码\transitCapTL\Source\DllProj\transitNet\PTNet.cpp(903,9): warning C4129: “D”: 不可识别的字符转义序列
+E:\CTEAP代码\transitCapTL\Source\DllProj\transitNet\PTNet.cpp(930,10): warning C4129: “D”: 不可识别的字符转义序列
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\utility(190,16): warning C4244: “初始化”: 从“floatType”转换到“_Ty1”，可能丢失数据
+          with
+          [
+              _Ty1=long
+          ]
+E:\CTEAP代码\transitCapTL\Source\DllProj\transitNet\PTNet.cpp(635): message : 查看对正在编译的函数 模板 实例化“std::pair<long,int>::pair<floatType&,int&,0>(_Other1,_Other2) noexcept”的引用
+          with
+          [
+              _Other1=floatType &,
+              _Other2=int &
+          ]
+E:\CTEAP代码\transitCapTL\Source\DllProj\transitNet\PTNet.cpp(635): message : 查看对正在编译的函数 模板 实例化“std::pair<long,int>::pair<floatType&,int&,0>(_Other1,_Other2) noexcept”的引用
+          with
+          [
+              _Other1=floatType &,
+              _Other2=int &
+          ]
+  SZTransit.cpp
+  TEAP.cpp
+  正在生成代码...
+E:\CTEAP代码\transitCapTL\Source\DllProj\transitNet\PTNet.h(352): warning C4715: “PTLink::GetTransitLinkTypeName”: 不是所有的控件路径都返回值
+E:\CTEAP代码\transitCapTL\Source\DllProj\transitNet\PTNet.h(352): warning C4715: “PTLink::GetTransitLinkTypeName”: 不是所有的控件路径都返回值
+E:\CTEAP代码\transitCapTL\Source\DllProj\transitNet\PTNet.h(352): warning C4715: “PTLink::GetTransitLinkTypeName”: 不是所有的控件路径都返回值
+E:\CTEAP代码\transitCapTL\Source\DllProj\transitNet\PTNet.cpp(786): warning C4700: 使用了未初始化的局部变量“ttodwalkcost”
+E:\CTEAP代码\transitCapTL\Source\DllProj\transitNet\PTNet.cpp(671): warning C4700: 使用了未初始化的局部变量“walklinkTTlength”
+E:\CTEAP代码\transitCapTL\Source\DllProj\transitNet\PTNet.h(352): warning C4715: “PTLink::GetTransitLinkTypeName”: 不是所有的控件路径都返回值
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1391,5): warning MSB8012: TargetPath(E:\CTEAP代码\transitCapTL\bin\x64\transitNet.dll) 与 Linker 的 OutputFile 属性值(E:\CTEAP代码\transitCapTL\bin\x64\ptnet_x64.dll)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1393,5): warning MSB8012: TargetName(transitNet) 与 Linker 的 OutputFile 属性值(ptnet_x64)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+    正在创建库 ../../../lib/x64/transitNet_x64.lib 和对象 ../../../lib/x64/transitNet_x64.exp
+  transitNet.vcxproj -> E:\CTEAP代码\transitCapTL\bin\x64\transitNet.dll

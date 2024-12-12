@@ -1,0 +1,5 @@
+shape_id,route_id,frequency,capacity,stops
+1,1,10,100,a,d
+2,2,10,300,a,b,c
+3,3,4,300,b,c,d
+4,4,20,570,c,d
