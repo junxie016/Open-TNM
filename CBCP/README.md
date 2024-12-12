@@ -28,8 +28,11 @@ can solve CBCP problems at such a scale while providing any assurance of converg
 • You can download more transportation test networks from https://github.com/bstabler/TransportationNetworks and put them in ‘./CBCP/Network/’.
 
 • Modify the following parameters accordingly:
+
  (1) The network file name in the main() function in ‘TNADriver.cpp’;
+ 
  (2) Set a proper cardinality constraint variable "kappa" in the TAP_BCP::AlgorithmBCPCC() function in 'TNM_Algorithm.cpp';
+ 
  (3) Set a proper initial z value in the TAP_BCP::AlgorithmBCPCC() function in 'TNM_Algorithm.cpp';
 
 
