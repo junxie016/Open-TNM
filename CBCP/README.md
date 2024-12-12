@@ -1,34 +1,38 @@
 # About the Algorithm
 
-The greedy algorithm is a path-based algorithm for the static user equilibrium traffic assignment problem, honored with the 2018 Stalla Dafermos Best Paper Award. Path-based algorithms
-are generally considered less efficient than bush-based counterparts, such as Algorithm B, traffic assignment by
-paired alternative segments (TAPAS), and iTAPAS, an improved version of TAPAS, because explicitly storing and manipulating
-paths appears wasteful. However, our numerical experiments indicate that the greedy algorithm can outperform
-TAPAS or iTAPAS by a wide margin. It shares the same Gauss-Seidel decomposition
-scheme with existing path-based algorithms, and delivers a surprising performance, most likely due to its two main features.
-First, it adopts a greedy method to solve the restricted subproblem defined on each origin–destination (O-D) pair. Second,
-instead of sequentially visiting every O-D pair in each iteration, it introduces an intelligent scheme to determine which OD
-pairs need more or less work. 
+Combinatorial bilevel congestion pricing (CBCP), a variant of the discrete network design
+problem, seeks to minimize the total travel time experienced by all travelers in a road network,
+by strategically selecting toll locations and determining the corresponding charges. Conventional
+wisdom suggests that these problems are intractable since they have to be formulated and solved
+with a significant number of integer variables. Here, we devise a scalable local algorithm for the
+CBCP problem that guarantees convergence to a Kuhn-Tucker-Karush point. Our approach is
+novel in that it eliminates the use of integer variables altogether, instead introducing a cardinality
+constraint that limits the number of toll locations to a user-specified upper bound. The resulting
+bilevel program with the cardinality constraint is then transformed into a block-separable, singlelevel
+optimization problem that can be solved efficiently after penalization and decomposition.
+We are able to apply the algorithm to solve, in about 20 minutes, a CBCP instance with up to
+3,000 links, of which hundreds can be tolled. To the best of our knowledge, no existing algorithm
+can solve CBCP problems at such a scale while providing any assurance of convergence.
 
 # How to Run the Algorithm
-• Open the solution in ‘./Greedy/Source/TNA/TNA.sln’ using Visual Studio 2012.
+• Open the solution in ‘./CBCP/Source/TNA/TNA.sln’ using Visual Studio 2012.
 
 • The main function is in ‘TNADriver.cpp’.
 
-• Modify the parameters in the TestGreedy function.
+• Modify the parameters in the TestBCPCC function.
 
 • Use "Ctrl + F5 " to compile and execute the code.
 
 # How to Run Other Test Problems
 
-• You can download more transportation test networks from https://github.com/bstabler/TransportationNetworks and put them in ‘./Greedy/Network/’.
+• You can download more transportation test networks from https://github.com/bstabler/TransportationNetworks and put them in ‘./CBCP/Network/’.
 
-• Please note that different networks feature distinct 'Generalized Cost Weights'. If you aim to reproduce the solution reported in the network, ensure to adjust the parameters in the SetCostCoef() function accordingly.
+• Modify the following parameters accordingly:
+ (1) The network file name in the main() function in ‘TNADriver.cpp’;
+ (2) Set a proper cardinality constraint variable "kappa" in the TAP_BCP::AlgorithmBCPCC() function in 'TNM_Algorithm.cpp';
+ (3) Set a proper initial z value in the TAP_BCP::AlgorithmBCPCC() function in 'TNM_Algorithm.cpp';
 
-# How to Cite
-
-Jun Xie, Yu (Marco) Nie and Xiaobo Liu. An implementation of the greedy path-based algorithm for traffic assignment. https://github.com/junxie016/open-TNM/tree/main/Greedy. December, 28, 2023.
 
 # Publication
 
-Xie J, Nie Y, Liu X. A greedy path-based algorithm for traffic assignment. Transportation Research Record. 2018 Dec;2672(48):36-44.
+Guo, Lei, Jiayang Li, Yu Marco Nie, and Jun Xie. "A Cardinality-Constrained Approach to Combinatorial Bilevel Congestion Pricing." arXiv preprint arXiv:2412.06482 (2024).
