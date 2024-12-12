@@ -1,0 +1,29 @@
+﻿生成启动时间为 2024/12/12 10:09:37。
+     1>项目“C:\Users\86131\Documents\BaiduSyncdisk\code\01 开源代码项目\BCBP-vs2012\BCBP\Source\TNA\TNA\TNA.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(346,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I..\..\..\include\mysql++ /I..\..\..\include\randlib /Zi /nologo /W1 /WX- /O2 /Oi /D _TNM_DLL /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"header\stdafx.h" /Fp"Release\TNA_x64.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I..\..\..\include\mysql++ /I..\..\..\include\randlib /Zi /nologo /W1 /WX- /O2 /Oi /D _TNM_DLL /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"header\stdafx.h" /Fp"Release\TNA_x64.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /errorReport:prompt TNM.cpp TNM_Algorithm.cpp TNM_EnumIO.cpp TNM_Net.cpp TNM_utility.cpp
+         TNM.cpp
+         TNM_Algorithm.cpp
+         TNM_EnumIO.cpp
+         TNM_Net.cpp
+         TNM_utility.cpp
+         正在生成代码...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1137,5): warning MSB8012: TargetPath(C:\Users\86131\Documents\BaiduSyncdisk\code\01 开源代码项目\BCBP-vs2012\BCBP\Source\TNA\TNA\..\..\..\bin\x64\TNA_x64.dll) does not match the Linker's OutputFile property value (C:\Users\86131\Documents\BaiduSyncdisk\code\01 开源代码项目\BCBP-vs2012\BCBP\bin\x64\tnm_x64.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1139,5): warning MSB8012: TargetName(TNA_x64) does not match the Linker's OutputFile property value (tnm_x64). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"../../../bin/x64/tnm_x64.dll" /NOLOGO /LIBPATH:..\..\..\lib\x64 /LIBPATH:..\..\..\lib\x64\mysql /LIBPATH:..\..\..\lib\x64\randlib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\..\..\bin\x64\TNA_x64.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\..\bin\x64\TNA_x64.lib" /MACHINE:X64 /DLL Release\stdafx.obj
+         Release\TNM.obj
+         Release\TNM_Algorithm.obj
+         Release\TNM_EnumIO.obj
+         Release\TNM_Net.obj
+         Release\TNM_utility.obj
+            正在创建库 ..\..\..\bin\x64\TNA_x64.lib 和对象 ..\..\..\bin\x64\TNA_x64.exp
+         TNA.vcxproj -> C:\Users\86131\Documents\BaiduSyncdisk\code\01 开源代码项目\BCBP-vs2012\BCBP\Source\TNA\TNA\..\..\..\bin\x64\TNA_x64.dll
+     1>已完成生成项目“C:\Users\86131\Documents\BaiduSyncdisk\code\01 开源代码项目\BCBP-vs2012\BCBP\Source\TNA\TNA\TNA.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.83

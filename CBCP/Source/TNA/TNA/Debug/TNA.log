@@ -1,0 +1,28 @@
+﻿生成启动时间为 2024/6/10 21:35:14。
+     1>项目“C:\Users\86131\OneDrive - swjtu.edu.cn\论文\03 合作论文\郭磊\道路交通分配代码整理\道路交通分配代码整理\Source\TNA\TNA\TNA.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp TNM.cpp TNM_Algorithm.cpp TNM_EnumIO.cpp TNM_Net.cpp TNM_utility.cpp
+         TNM_utility.cpp
+              _Adding library: tnad.lib: debug, Win32
+     1>c:\users\86131\onedrive - swjtu.edu.cn\论文\03 合作论文\郭磊\道路交通分配代码整理\道路交通分配代码整理\source\tna\tna\header\tnm.h(50): fatal error C1083: 无法打开包括文件:“mysql++.h”: No such file or directory
+         TNM_Net.cpp
+              _Adding library: tnad.lib: debug, Win32
+     1>c:\users\86131\onedrive - swjtu.edu.cn\论文\03 合作论文\郭磊\道路交通分配代码整理\道路交通分配代码整理\source\tna\tna\header\tnm.h(50): fatal error C1083: 无法打开包括文件:“mysql++.h”: No such file or directory
+         TNM_EnumIO.cpp
+              _Adding library: tnad.lib: debug, Win32
+     1>c:\users\86131\onedrive - swjtu.edu.cn\论文\03 合作论文\郭磊\道路交通分配代码整理\道路交通分配代码整理\source\tna\tna\header\tnm.h(50): fatal error C1083: 无法打开包括文件:“mysql++.h”: No such file or directory
+         TNM_Algorithm.cpp
+              _Adding library: tnad.lib: debug, Win32
+     1>c:\users\86131\onedrive - swjtu.edu.cn\论文\03 合作论文\郭磊\道路交通分配代码整理\道路交通分配代码整理\source\tna\tna\header\tnm.h(50): fatal error C1083: 无法打开包括文件:“mysql++.h”: No such file or directory
+         TNM.cpp
+              _Adding library: tnad.lib: debug, Win32
+     1>c:\users\86131\onedrive - swjtu.edu.cn\论文\03 合作论文\郭磊\道路交通分配代码整理\道路交通分配代码整理\source\tna\tna\header\tnm.h(50): fatal error C1083: 无法打开包括文件:“mysql++.h”: No such file or directory
+         stdafx.cpp
+              _Adding library: tnad.lib: debug, Win32
+     1>c:\users\86131\onedrive - swjtu.edu.cn\论文\03 合作论文\郭磊\道路交通分配代码整理\道路交通分配代码整理\source\tna\tna\header\tnm.h(50): fatal error C1083: 无法打开包括文件:“mysql++.h”: No such file or directory
+         正在生成代码...
+     1>已完成生成项目“C:\Users\86131\OneDrive - swjtu.edu.cn\论文\03 合作论文\郭磊\道路交通分配代码整理\道路交通分配代码整理\Source\TNA\TNA\TNA.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.67

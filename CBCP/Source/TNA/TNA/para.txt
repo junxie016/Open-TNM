@@ -1,0 +1,4 @@
+The parameters that may affect the results, and some selected hyperparameters for sf network are as follows:
+
+Initial value: When κ=10, set the initial value to 1.2; when κ≥20, set the initial value to 0.
+Number of iterations for the inner loop: When κ≤40, set it to 25; when κ=50, setting it to 15 yields better results.
