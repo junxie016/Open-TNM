@@ -33,7 +33,7 @@ can solve CBCP problems at such a scale while providing any assurance of converg
  
  (2) Set a proper cardinality constraint variable "kappa" in the TAP_BCP::AlgorithmBCPCC() function in 'TNM_Algorithm.cpp';
  
- (3) Set a proper initial z value in the TAP_BCP::AlgorithmBCPCC() function in 'TNM_Algorithm.cpp';
+ (3) Set a proper initial z value (saved in 'network->linkVector[i]->buffer[2]') in the TAP_BCP::AlgorithmBCPCC() function in 'TNM_Algorithm.cpp';
 
 
 # Publication
