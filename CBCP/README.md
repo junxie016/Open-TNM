@@ -38,4 +38,5 @@ can solve CBCP problems at such a scale while providing any assurance of converg
 
 # Publication
 
-Guo, Lei, Jiayang Li, Yu Marco Nie, and Jun Xie. "A Cardinality-Constrained Approach to Combinatorial Bilevel Congestion Pricing." arXiv preprint arXiv:2412.06482 (2024).
+Guo, Lei, Jiayang Li, Yu Marco Nie, and Jun Xie. "A Cardinality-Constrained Approach to Combinatorial Bilevel Congestion Pricing." arXiv preprint arXiv:2412.06482 (2024). https://doi.org/10.48550/arXiv.2412.06482 
+
