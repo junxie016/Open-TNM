@@ -4,9 +4,13 @@ The algorithm is a hyeprpath-based algorithm designed for solving the Transit Eq
 
 ## How to Run the Algorithm
 •	Open the solution in ‘./transitCapTL/Source/Solution/mySolution.sln’ using Visual Studio 2012.
+
 •	The main function is located in ‘TEAPDriver.cpp’ in the ‘transitDriver’ project.
+
 •	Four test networks are provided, including: Gentile, Sious-Falls, Winnipeg and Shenzhen Center transit networks. The test networks need to run the corresponding function, for example, the corresponding function for Gentile network is "GentileNet()".
+
 •	Modify the parameters in the different network functions.
+
 •	Use "Ctrl + F5 " to compile and execute the code.
 
 ## Publication
@@ -20,13 +24,18 @@ The second part (subproblem) solves the uncapacitated TEAP subproblem by the hyp
 
 ## How to Run the Algorithm
 •	Open the solution in ‘./transitCapTL/Source/Solution/mySolution.sln’ using Visual Studio 2012.
+
 •	The main function is located in ‘TEAPDriver.cpp’ in the ‘transitDriver’ project.
+
 •	Four test networks are provided, including: Gentile, Sious-Falls, Winnipeg and Shenzhen Center transit networks. The test networks need to run the corresponding function, for example, the corresponding function for Gentile network is "CapGentileNet()".
+
 •	Modify the parameters in the different network functions.
+
 •	Use "Ctrl + F5 " to compile and execute the code.
 
 ## How to Construct the Walking Link between O-D pairs
 •	When testing the CTEAP on the Gentile transit network, run CreateWalkLink() within the function“PCTAE_Solver(PCTAE_algorithm alg)”.
+
 •	When testing the CTEAP on the Sious-Falls, Winnipeg, and Shenzhen Center transit networks, run CreateODLink() within the function “PCTAE_Solver(PCTAE_algorithm alg)”.
 
 ## Publication
