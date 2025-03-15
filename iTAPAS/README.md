@@ -78,3 +78,5 @@ Jun Xie, Chi Xie and Yu (Marco) Nie. An implementation of the iTAPAS algorithm f
 # Publication
 
 Xie, J. and Xie, C., 2016. New insights and improvements of using paired alternative segments for traffic assignment. Transportation Research Part B: Methodological, 93, pp.406-424.
+
+
