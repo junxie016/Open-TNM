@@ -1,0 +1,63 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\zou.dx\\Documents\\Open-TNM\\Greedy-for-visual studio 2022\\Greedy\\Source\\TNA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E9C9ACF4-5034-4E8B-9410-517263EDF0DF}|TNADriver\\TNADriver.vcxproj|C:\\Users\\zou.dx\\Documents\\Open-TNM\\Greedy-for-visual studio 2022\\Greedy\\Source\\TNA\\TNADriver\\TNADriver.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E9C9ACF4-5034-4E8B-9410-517263EDF0DF}|TNADriver\\TNADriver.vcxproj|solutionrelative:TNADriver\\TNADriver.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 550,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1536,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TNADriver.cpp",
+              "DocumentMoniker": "C:\\Users\\zou.dx\\Documents\\Open-TNM\\Greedy-for-visual studio 2022\\Greedy\\Source\\TNA\\TNADriver\\TNADriver.cpp",
+              "RelativeDocumentMoniker": "TNADriver\\TNADriver.cpp",
+              "ToolTip": "C:\\Users\\zou.dx\\Documents\\Open-TNM\\Greedy-for-visual studio 2022\\Greedy\\Source\\TNA\\TNADriver\\TNADriver.cpp*",
+              "RelativeToolTip": "TNADriver\\TNADriver.cpp*",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACsAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-15T07:33:33.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

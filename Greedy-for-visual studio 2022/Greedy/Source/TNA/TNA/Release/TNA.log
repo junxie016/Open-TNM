@@ -1,6 +1,0 @@
-﻿C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
-  TNM_Algorithm.cpp
-C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1392,5): warning MSB8012: TargetPath(C:\Users\86131\OneDrive - swjtu.edu.cn\code\01 开源代码项目\Greedy 算法\Greedy-for-visual studio 2022\Greedy\bin\x64\TNA_x64.dll) 与 Linker 的 OutputFile 属性值(C:\Users\86131\OneDrive - swjtu.edu.cn\code\01 开源代码项目\Greedy 算法\Greedy-for-visual studio 2022\Greedy\bin\x64\tnm_x64.dll)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
-C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1394,5): warning MSB8012: TargetName(TNA_x64) 与 Linker 的 OutputFile 属性值(tnm_x64)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
-    正在创建库 ../../../bin/x64\TNA_x64.lib 和对象 ../../../bin/x64\TNA_x64.exp
-  TNA.vcxproj -> C:\Users\86131\OneDrive - swjtu.edu.cn\code\01 开源代码项目\Greedy 算法\Greedy-for-visual studio 2022\Greedy\bin\x64\TNA_x64.dll

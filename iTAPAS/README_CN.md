@@ -53,9 +53,7 @@ iTAPAS是一种改进的TAPAS算法，主要在两个方面对原始TAPAS算法�
 - 你可以从https://github.com/bstabler/TransportationNetworks 下载更多交通测试网络，并将其放置在“./iTAPAS/Network/”目录下。
 - 请注意，不同的网络具有不同的“广义成本权重”。如果你想重现网络中报告的解决方案，请确保相应地调整“SetCostCoef()”函数中的参数。
 
-### 引用方式
-谢军、谢驰和聂宇（马可）。用于交通分配的iTAPAS算法实现。https://github.com/junxie016/open-TNM/tree/main/iTAPAS 。2024年4月4日。
 
 ### 出版物信息
-Xie, J. and Xie, C., 2016. 使用配对替代路段进行交通分配的新见解与改进。《交通研究B辑：方法学》，93，第406 - 424页。 
+
 Xie, J. and Xie, C., 2016. New insights and improvements of using paired alternative segments for traffic assignment. Transportation Research Part B: Methodological, 93, pp.406-424.
