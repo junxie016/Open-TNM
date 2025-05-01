@@ -57,11 +57,19 @@ int TestGreedy( const string &path, const string &name)
 	
 }
 
-int main()
+int main(int argc, char* argv[])
 {
-	string cs="ChicagoSketch";
-	string sf = "SiouxFalls";
+    std::string networkPath, networkName;
 
-	
-	TestGreedy("..\\..\\..\\Network\\cs\\",cs); //"..\\..\\..\\Network\\sf\\",sf
+    if (argc > 2) {
+        networkPath = argv[1];   // Path containing the TNTP network files e.g., "..\\..\\Network\\sf\\"
+        networkName = argv[2];   // Name of the TNTP network files e.g., "SiouxFalls" it will automatically search for _node, _net and _trips
+    } else {
+        // fallback default
+        networkPath = "..\\..\\Network\\cs\\"; // in current GIT structure, the network folder is in greedy\network, that is 2 levels (bin\x64) away not 3 levels away
+        networkName = "ChicagoSketch";
+    }
+
+    TestGreedy(networkPath, networkName);
+    return 0;
 };
