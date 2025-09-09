@@ -1,0 +1,11 @@
+﻿  stdafx.cpp
+  TNM.cpp
+  TNM_Algorithm.cpp
+  TNM_EnumIO.cpp
+  TNM_Net.cpp
+  TNM_utility.cpp
+  正在生成代码...
+C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1392,5): warning MSB8012: TargetPath(C:\Users\86131\Documents\BaiduSyncdisk\论文\2025\OR\第三轮\C-BiTASept.2025\C-BiTA\bin\x64\trafficNet.dll) 与 Linker 的 OutputFile 属性值(C:\Users\86131\Documents\BaiduSyncdisk\论文\2025\OR\第三轮\C-BiTASept.2025\C-BiTA\bin\x64\tnm_x64.dll)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1394,5): warning MSB8012: TargetName(trafficNet) 与 Linker 的 OutputFile 属性值(tnm_x64)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+    正在创建库 ../../../lib/x64/trafficNet_x64.lib 和对象 ../../../lib/x64/trafficNet_x64.exp
+  trafficNet.vcxproj -> C:\Users\86131\Documents\BaiduSyncdisk\论文\2025\OR\第三轮\C-BiTASept.2025\C-BiTA\bin\x64\trafficNet.dll

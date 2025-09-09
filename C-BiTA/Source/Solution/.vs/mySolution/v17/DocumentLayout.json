@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\86131\\Documents\\BaiduSyncdisk\\\u8BBA\u6587\\2025\\OR\\\u7B2C\u4E09\u8F6E\\C-BiTASept.2025\\C-BiTA\\Source\\Solution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D12AEA68-F70F-440B-99CF-4D5F503FD2B8}|..\\ExeDriver\\trafficDriver\\trafficDriver.vcxproj|C:\\Users\\86131\\Documents\\BaiduSyncdisk\\\u8BBA\u6587\\2025\\OR\\\u7B2C\u4E09\u8F6E\\C-BiTASept.2025\\C-BiTA\\Source\\ExeDriver\\trafficDriver\\trafficDriver.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "trafficDriver.cpp",
+              "DocumentMoniker": "C:\\Users\\86131\\Documents\\BaiduSyncdisk\\\u8BBA\u6587\\2025\\OR\\\u7B2C\u4E09\u8F6E\\C-BiTASept.2025\\C-BiTA\\Source\\ExeDriver\\trafficDriver\\trafficDriver.cpp",
+              "RelativeDocumentMoniker": "..\\ExeDriver\\trafficDriver\\trafficDriver.cpp",
+              "ToolTip": "C:\\Users\\86131\\Documents\\BaiduSyncdisk\\\u8BBA\u6587\\2025\\OR\\\u7B2C\u4E09\u8F6E\\C-BiTASept.2025\\C-BiTA\\Source\\ExeDriver\\trafficDriver\\trafficDriver.cpp",
+              "RelativeToolTip": "..\\ExeDriver\\trafficDriver\\trafficDriver.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-09T01:33:17.247Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
