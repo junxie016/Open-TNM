@@ -86,3 +86,6 @@ To reproduce these experiments through the source code:
  - Locate the `main` function in *trafficDriver.cpp*.
  - Uncomment the line following the `base_file_path` string variable that corresponds to your target experiment (note that scripts are organized according to the paper's sections), then compile and execute using `Ctrl + F5`.
  - The output results will be generated in the same folder as the input files and can be opened, inspected, renamed, or relocated as required.
+
+## 04 Publication
+Xie, Jun, Qianni Wang, Jiayang Li, and Marco Nie. "An efficient algorithm for continuous bi-criteria traffic assignment." Available at SSRN 5373325 (2025).
