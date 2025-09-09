@@ -17,7 +17,7 @@ int TestGreedy( const string &path, const string &name)
 	ofw->SetConv(1e-10);//Convergence criterion
 	ofw->SetMaxIter(500);//Maximum allowed iteration number
 	ofw->SetLPF(BPRLK);
-	ofw->SetCostScalar(60);
+	//ofw->SetCostScalar(60);
 	ofw->SetCostCoef(1.0,0.00); //link generalized cost = time_factor * Link travel time  + distance factor * distance; 1.0 is time factor and 0.0 is distance_factor
 
 	string input, output;
@@ -63,5 +63,5 @@ int main()
 	string sf = "SiouxFalls";
 
 	
-	TestGreedy("..\\..\\..\\Network\\cs\\",cs); //"..\\..\\..\\Network\\sf\\",sf
+	TestGreedy("..\\..\\..\\Network\\sf\\",sf); //"..\\..\\..\\Network\\sf\\",sf
 };

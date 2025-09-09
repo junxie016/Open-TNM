@@ -1,0 +1,8 @@
+﻿生成启动时间为 2025/4/28 21:17:34。
+     1>项目“C:\Users\86131\Documents\GitHub\Open-TNM\iTAPAS\Source\TNA\TNA\TNA.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.Cpp.Platform.targets(44,5): error MSB8020: The builds tools for v142 (Platform Toolset = 'v142') cannot be found. To build using the v142 build tools, either click the Project menu or right-click the solution, and then select "Update VC++ Projects...". Install v142 to build using the v142 build tools.
+     1>已完成生成项目“C:\Users\86131\Documents\GitHub\Open-TNM\iTAPAS\Source\TNA\TNA\TNA.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.01

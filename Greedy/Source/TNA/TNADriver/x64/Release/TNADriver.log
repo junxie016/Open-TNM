@@ -1,5 +1,5 @@
-﻿生成启动时间为 2023/12/27 20:29:27。
-     1>项目“C:\Users\86131\OneDrive - swjtu.edu.cn\code\开源代码项目\Greedy 算法\Traffic assignment algorithms-Open source-v2\Traffic assignment algorithms-Open source\Source\TNA\TNADriver\TNADriver.vcxproj”在节点 2 上(Build 个目标)。
+﻿生成启动时间为 2025/4/28 21:16:30。
+     1>项目“C:\Users\86131\Documents\GitHub\Open-TNM\Greedy\Source\TNA\TNADriver\TNADriver.vcxproj”在节点 2 上(Build 个目标)。
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(346,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I..\..\..\include\mysql++ /I..\..\..\include\randlib /Zi /nologo /W1 /WX- /O2 /Oi /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt TNADriver.cpp
@@ -37,6 +37,9 @@
                已找到 "__declspec(dllimport) public: int __cdecl TNM_TAP::SetTollType(enum TNM_TOLLTYPE)" (__imp_?SetTollType@TNM_TAP@@QEAAHW4TNM_TOLLTYPE@@@Z)
                  已在 TNADriver.obj 中引用
                  已加载 tna_x64.lib(tnm_x64.dll)
+               已找到 "__declspec(dllimport) public: void __cdecl TNM_TAP::SetCentroidsBlocked(bool)" (__imp_?SetCentroidsBlocked@TNM_TAP@@QEAAX_N@Z)
+                 已在 TNADriver.obj 中引用
+                 已加载 tna_x64.lib(tnm_x64.dll)
                已找到 "__declspec(dllimport) public: enum TERMFLAGS __cdecl TNM_TAP::Solve(void)" (__imp_?Solve@TNM_TAP@@QEAA?AW4TERMFLAGS@@XZ)
                  已在 TNADriver.obj 中引用
                  已加载 tna_x64.lib(tnm_x64.dll)
@@ -53,6 +56,7 @@
                  已在 TNADriver.obj 中引用
                  已加载 tna_x64.lib(tnm_x64.dll)
                已找到 __IMPORT_DESCRIPTOR_tnm_x64
+                 已在 tna_x64.lib(tnm_x64.dll) 中引用
                  已在 tna_x64.lib(tnm_x64.dll) 中引用
                  已在 tna_x64.lib(tnm_x64.dll) 中引用
                  已在 tna_x64.lib(tnm_x64.dll) 中引用
@@ -421,26 +425,26 @@
           /v
           /x
           /fo
-          "C:\Users\86131\AppData\Local\Temp\lnk{C07B252B-860C-4100-B85F-2AB40F72699A}.tmp"
-          "C:\Users\86131\AppData\Local\Temp\lnk{6EA797DD-EF76-4E9F-8F28-93F0480C0420}.tmp"
+          "C:\Users\86131\AppData\Local\Temp\lnk{6A75331E-0AC0-446A-9F75-AAF7F782B5B3}.tmp"
+          "C:\Users\86131\AppData\Local\Temp\lnk{A1FC23A0-5FE5-44A3-AE67-7AB9DCF1FB02}.tmp"
          Microsoft (R) Windows (R) Resource Compiler Version 6.2.9200.16384
          
          Copyright (C) Microsoft Corporation.  All rights reserved.
          
          
-         Creating C:\Users\86131\AppData\Local\Temp\lnk{C07B252B-860C-4100-B85F-2AB40F72699A}.tmp
+         Creating C:\Users\86131\AppData\Local\Temp\lnk{6A75331E-0AC0-446A-9F75-AAF7F782B5B3}.tmp
          
          Using codepage 936 as default
          
-         C:\Users\86131\AppData\Local\Temp\lnk{6EA797DD-EF76-4E9F-8F28-93F0480C0420}.tmp.
+         C:\Users\86131\AppData\Local\Temp\lnk{A1FC23A0-5FE5-44A3-AE67-7AB9DCF1FB02}.tmp.
          Writing 24:1,	lang:0x409,	size 381
          
          正在调用 cvtres.exe:
           /machine:amd64
           /verbose
-          /out:"C:\Users\86131\AppData\Local\Temp\lnk{99346BF8-7A1C-4197-9374-DDA878AF3AF6}.tmp"
+          /out:"C:\Users\86131\AppData\Local\Temp\lnk{7F7760F4-8D33-4F04-BC31-98F9B81178E9}.tmp"
           /readonly
-          "C:\Users\86131\AppData\Local\Temp\lnk{C07B252B-860C-4100-B85F-2AB40F72699A}.tmp"
+          "C:\Users\86131\AppData\Local\Temp\lnk{6A75331E-0AC0-446A-9F75-AAF7F782B5B3}.tmp"
          Microsoft(R) Windows Resource To Object Converter 版本 11.00.50727.1
          版权所有 (C) Microsoft Corporation。保留所有权利。
          
@@ -521,7 +525,6 @@
              已丢弃 "public: static bool const std::_Num_base::traps" (?traps@_Num_base@std@@2_NB)(从 TNADriver.obj 中)
              已丢弃 "public: static enum std::_Iosb<int>::_Iostate const std::_Iosb<int>::failbit" (?failbit@?$_Iosb@H@std@@2W4_Iostate@12@B)(从 TNADriver.obj 中)
              已丢弃 "public: static unsigned __int64 const std::_Sizeof<int,struct std::_Nil,struct std::_Nil,struct std::_Nil,struct std::_Nil,struct std::_Nil,struct std::_Nil,struct std::_Nil>::value" (?value@?$_Sizeof@HU_Nil@std@@U12@U12@U12@U12@U12@U12@@std@@2_KB)(从 TNADriver.obj 中)
-             已丢弃 "public: static int const std::integral_constant<int,0>::value" (?value@?$integral_constant@H$0A@@std@@2HB)(从 TNADriver.obj 中)
              已丢弃 "public: static enum std::float_round_style const std::_Num_base::round_style" (?round_style@_Num_base@std@@2W4float_round_style@2@B)(从 TNADriver.obj 中)
              已丢弃 "public: static enum std::_Iosb<int>::_Iostate const std::_Iosb<int>::badbit" (?badbit@?$_Iosb@H@std@@2W4_Iostate@12@B)(从 TNADriver.obj 中)
              已丢弃 "public: static int const std::_Num_base::digits" (?digits@_Num_base@std@@2HB)(从 TNADriver.obj 中)
@@ -529,6 +532,7 @@
              已丢弃 "public: static int const std::_Num_base::digits10" (?digits10@_Num_base@std@@2HB)(从 TNADriver.obj 中)
              已丢弃 "public: static int const std::_Num_base::max_digits10" (?max_digits10@_Num_base@std@@2HB)(从 TNADriver.obj 中)
              已丢弃 "public: static enum std::_Iosb<int>::_Openmode const std::_Iosb<int>::in" (?in@?$_Iosb@H@std@@2W4_Openmode@12@B)(从 TNADriver.obj 中)
+             已丢弃 "public: static int const std::integral_constant<int,0>::value" (?value@?$integral_constant@H$0A@@std@@2HB)(从 TNADriver.obj 中)
              已丢弃 "public: static enum std::_Iosb<int>::_Openmode const std::_Iosb<int>::out" (?out@?$_Iosb@H@std@@2W4_Openmode@12@B)(从 TNADriver.obj 中)
              已丢弃 "public: static int const std::_Num_base::max_exponent" (?max_exponent@_Num_base@std@@2HB)(从 TNADriver.obj 中)
              已丢弃 "public: static enum std::_Iosb<int>::_Openmode const std::_Iosb<int>::ate" (?ate@?$_Iosb@H@std@@2W4_Openmode@12@B)(从 TNADriver.obj 中)
@@ -623,15 +627,11 @@
              已丢弃 "public: static int const std::numeric_limits<float>::max_digits10" (?max_digits10@?$numeric_limits@M@std@@2HB)(从 TNADriver.obj 中)
              已丢弃 "public: static int const std::numeric_limits<float>::max_exponent" (?max_exponent@?$numeric_limits@M@std@@2HB)(从 TNADriver.obj 中)
              已丢弃“.rdata”(从 TNADriver.obj 中)
-             已丢弃“.rdata”(从 TNADriver.obj 中)
              已丢弃 "private: static unsigned int const <CrtImplementationDetails>::NativeDll::ProcessDetach" (?ProcessDetach@NativeDll@<CrtImplementationDetails>@@0IB)(从 MSVCRT.lib(unhandld.obj) 中)
              已丢弃 "private: static unsigned int const <CrtImplementationDetails>::NativeDll::ProcessAttach" (?ProcessAttach@NativeDll@<CrtImplementationDetails>@@0IB)(从 MSVCRT.lib(unhandld.obj) 中)
              已丢弃 "private: static unsigned int const <CrtImplementationDetails>::NativeDll::ThreadAttach" (?ThreadAttach@NativeDll@<CrtImplementationDetails>@@0IB)(从 MSVCRT.lib(unhandld.obj) 中)
              已丢弃 "private: static unsigned int const <CrtImplementationDetails>::NativeDll::ThreadDetach" (?ThreadDetach@NativeDll@<CrtImplementationDetails>@@0IB)(从 MSVCRT.lib(unhandld.obj) 中)
              已丢弃 "private: static unsigned int const <CrtImplementationDetails>::NativeDll::ProcessVerifier" (?ProcessVerifier@NativeDll@<CrtImplementationDetails>@@0IB)(从 MSVCRT.lib(unhandld.obj) 中)
-             已丢弃“.xdata”(从 TNADriver.obj 中)
-             已丢弃“.xdata”(从 TNADriver.obj 中)
-             已丢弃“.xdata”(从 TNADriver.obj 中)
              已丢弃“.xdata”(从 TNADriver.obj 中)
              已丢弃“.xdata”(从 TNADriver.obj 中)
              已丢弃“.xdata”(从 TNADriver.obj 中)
@@ -664,7 +664,6 @@
              已丢弃“.xdata”(从 MSVCRT.lib(ehvecdtr.obj) 中)
              已丢弃“.idata$4”(从 MSVCRT.lib(MSVCR110.dll) 中)
              已丢弃“.idata$6”(从 MSVCRT.lib(MSVCR110.dll) 中)
-             已丢弃“.pdata”(从 TNADriver.obj 中)
              已丢弃“.pdata”(从 TNADriver.obj 中)
              已丢弃“.pdata”(从 TNADriver.obj 中)
              已丢弃“.pdata”(从 TNADriver.obj 中)
@@ -742,7 +741,6 @@
              已丢弃 "public: __int64 __cdecl std::_String_iterator<class std::_String_val<struct std::_Simple_types<char> > >::operator-(class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > > const &)const " (??G?$_String_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@QEBA_JAEBV?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@1@@Z)(从 TNADriver.obj 中)
              已丢弃 "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __cdecl std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::operator+=(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??Y?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV01@AEBV01@@Z)(从 TNADriver.obj 中)
              已丢弃 "public: void * __cdecl TAP_Greedy::`scalar deleting destructor'(unsigned int)" (??_GTAP_Greedy@@QEAAPEAXI@Z)(从 TNADriver.obj 中)
-             已丢弃 "int __cdecl TestChicagoSketch(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?TestChicagoSketch@@YAHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)(从 TNADriver.obj 中)
              已丢弃 "public: void __cdecl std::_Iterator_base0::_Adopt(void const *)" (?_Adopt@_Iterator_base0@std@@QEAAXPEBX@Z)(从 TNADriver.obj 中)
              已丢弃 "public: void __cdecl std::_String_alloc<0,struct std::_String_base_types<char,class std::allocator<char> > >::_Change_alloc(struct std::_Wrap_alloc<class std::allocator<char> > const &)" (?_Change_alloc@?$_String_alloc@$0A@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QEAAXAEBU?$_Wrap_alloc@V?$allocator@D@std@@@2@@Z)(从 TNADriver.obj 中)
              已丢弃 "public: void __cdecl std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > >::_Compat(class std::_String_const_iterator<class std::_String_val<struct std::_Simple_types<char> > > const &)const " (?_Compat@?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@QEBAXAEBV12@@Z)(从 TNADriver.obj 中)
@@ -789,6 +787,7 @@
              已丢弃 "public: void __cdecl TNM_TAP::SetConv(long double)" (?SetConv@TNM_TAP@@QEAAXO@Z)(从 tna_x64.lib(tnm_x64.dll) 中)
              已丢弃 "public: void __cdecl TNM_TAP::SetMaxIter(int)" (?SetMaxIter@TNM_TAP@@QEAAXH@Z)(从 tna_x64.lib(tnm_x64.dll) 中)
              已丢弃 "public: int __cdecl TNM_TAP::SetTollType(enum TNM_TOLLTYPE)" (?SetTollType@TNM_TAP@@QEAAHW4TNM_TOLLTYPE@@@Z)(从 tna_x64.lib(tnm_x64.dll) 中)
+             已丢弃 "public: void __cdecl TNM_TAP::SetCentroidsBlocked(bool)" (?SetCentroidsBlocked@TNM_TAP@@QEAAX_N@Z)(从 tna_x64.lib(tnm_x64.dll) 中)
              已丢弃 "public: enum TERMFLAGS __cdecl TNM_TAP::Solve(void)" (?Solve@TNM_TAP@@QEAA?AW4TERMFLAGS@@XZ)(从 tna_x64.lib(tnm_x64.dll) 中)
              已丢弃 "public: __cdecl TAP_Greedy::TAP_Greedy(void)" (??0TAP_Greedy@@QEAA@XZ)(从 tna_x64.lib(tnm_x64.dll) 中)
              已丢弃 "public: __cdecl TAP_Greedy::~TAP_Greedy(void)" (??1TAP_Greedy@@QEAA@XZ)(从 tna_x64.lib(tnm_x64.dll) 中)
@@ -834,7 +833,6 @@
              已丢弃 GetSystemTimeAsFileTime(从 kernel32.lib(KERNEL32.dll) 中)
              已丢弃 GetTickCount64(从 kernel32.lib(KERNEL32.dll) 中)
              已丢弃“.text$x”(从 TNADriver.obj 中)
-             已丢弃“.text$x”(从 TNADriver.obj 中)
          
              已选择符号:
                  _matherr (在 MSVCRT.lib(merr.obj) 中)
@@ -851,19 +849,19 @@
              已选择符号:
                  “.xdata”(在 MSVCRT.lib(unhandld.obj) 中)
              已替换符号:
-                 “.xdata”(在 MSVCRT.lib(atonexit.obj) 中)
+                 “.xdata”(在 MSVCRT.lib(crtexe.obj) 中)
+                 “.xdata”(在 MSVCRT.lib(crtexe.obj) 中)
                  “.xdata”(在 MSVCRT.lib(unhandld.obj) 中)
-                 “.xdata”(在 MSVCRT.lib(crtexe.obj) 中)
-                 “.xdata”(在 MSVCRT.lib(crtexe.obj) 中)
+                 “.xdata”(在 MSVCRT.lib(atonexit.obj) 中)
          
              已选择符号:
-                 “.xdata”(在 TNADriver.obj 中)
-             已替换符号:
-                 “.xdata”(在 MSVCRT.lib(atonexit.obj) 中)
-                 “.xdata”(在 MSVCRT.lib(ehvecdtr.obj) 中)
-                 “.xdata”(在 MSVCRT.lib(ehvecdtr.obj) 中)
                  “.xdata”(在 MSVCRT.lib(crtexe.obj) 中)
+             已替换符号:
+                 “.xdata”(在 TNADriver.obj 中)
+                 “.xdata”(在 MSVCRT.lib(atonexit.obj) 中)
                  “.xdata”(在 MSVCRT.lib(pesect.obj) 中)
+                 “.xdata”(在 MSVCRT.lib(ehvecdtr.obj) 中)
+                 “.xdata”(在 MSVCRT.lib(ehvecdtr.obj) 中)
          
              已选择符号:
                  “.xdata”(在 TNADriver.obj 中)
@@ -872,25 +870,25 @@
                  “.xdata”(在 TNADriver.obj 中)
          
              已选择符号:
-                 “.xdata”(在 TNADriver.obj 中)
-             已替换符号:
-                 “.xdata”(在 TNADriver.obj 中)
-                 “.xdata”(在 TNADriver.obj 中)
-                 “.xdata”(在 TNADriver.obj 中)
                  “.xdata”(在 MSVCRT.lib(gs_report.obj) 中)
-                 “.xdata”(在 TNADriver.obj 中)
-                 “.xdata”(在 TNADriver.obj 中)
+             已替换符号:
                  “.xdata”(在 MSVCRT.lib(atonexit.obj) 中)
+                 “.xdata”(在 TNADriver.obj 中)
+                 “.xdata”(在 TNADriver.obj 中)
+                 “.xdata”(在 TNADriver.obj 中)
+                 “.xdata”(在 TNADriver.obj 中)
                  “.xdata”(在 MSVCRT.lib(gshandler.obj) 中)
+                 “.xdata”(在 TNADriver.obj 中)
+                 “.xdata”(在 TNADriver.obj 中)
          
              已选择符号:
-                 “.xdata”(在 MSVCRT.lib(initsect.obj) 中)
+                 “.xdata”(在 TNADriver.obj 中)
              已替换符号:
+                 “.xdata”(在 TNADriver.obj 中)
+                 “.xdata”(在 TNADriver.obj 中)
                  “.xdata”(在 MSVCRT.lib(initsect.obj) 中)
                  “.xdata”(在 TNADriver.obj 中)
-                 “.xdata”(在 TNADriver.obj 中)
-                 “.xdata”(在 TNADriver.obj 中)
-                 “.xdata”(在 TNADriver.obj 中)
+                 “.xdata”(在 MSVCRT.lib(initsect.obj) 中)
          
              已选择符号:
                  “.xdata”(在 TNADriver.obj 中)
@@ -924,6 +922,7 @@
               kernel32.lib(KERNEL32.dll)
               kernel32.lib(KERNEL32.dll)
               kernel32.lib(KERNEL32.dll)
+              tna_x64.lib(tnm_x64.dll)
               tna_x64.lib(tnm_x64.dll)
               tna_x64.lib(tnm_x64.dll)
               tna_x64.lib(tnm_x64.dll)
@@ -1016,9 +1015,9 @@
               MSVCRT.lib(MSVCR110.dll)
               MSVCRT.lib(MSVCR110.dll)
          已完成传递 2
-         TNADriver.vcxproj -> C:\Users\86131\OneDrive - swjtu.edu.cn\code\开源代码项目\Greedy 算法\Traffic assignment algorithms-Open source-v2\Traffic assignment algorithms-Open source\Source\TNA\TNADriver\..\..\..\bin\x64\TNADriver.exe
-     1>已完成生成项目“C:\Users\86131\OneDrive - swjtu.edu.cn\code\开源代码项目\Greedy 算法\Traffic assignment algorithms-Open source-v2\Traffic assignment algorithms-Open source\Source\TNA\TNADriver\TNADriver.vcxproj”(Build 个目标)的操作。
+         TNADriver.vcxproj -> C:\Users\86131\Documents\GitHub\Open-TNM\Greedy\Source\TNA\TNADriver\..\..\..\bin\x64\TNADriver.exe
+     1>已完成生成项目“C:\Users\86131\Documents\GitHub\Open-TNM\Greedy\Source\TNA\TNADriver\TNADriver.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:01.60
+已用时间 00:00:01.71
