@@ -1,0 +1,16 @@
+﻿生成启动时间为 2021/6/9 14:19:02。
+     1>项目“D:\Code\SZProj\Source\ExeDriver\trafficDriver\trafficDriver.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\include\tnm /I"..\..\..\include\nlopt-2.4.2-dll64" /I..\..\..\include\lp_solve /I..\..\DllProj\transitNet /I..\..\..\include\ShapeLib /I..\..\..\include\gdal /I..\..\..\include\randlib /I..\..\..\include\mysql++ /Zi /nologo /W1 /WX- /O2 /Oi /Oy- /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32\Release\\" /Fd"Win32\Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt trafficDriver.cpp
+         trafficDriver.cpp
+              _Adding library: tnm_win32.lib: release, Win32
+              Loading Shapfile...
+            SHAPELIB_DLLEXPORT is defined  
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\bin\Win32\trafficDriver.exe" /NOLOGO /LIBPATH:..\..\..\lib\Win32 /LIBPATH:..\..\..\lib\Win32\randlib /LIBPATH:..\..\..\lib\Win32\mysql /LIBPATH:..\..\..\lib\Win32\gdal /LIBPATH:..\..\..\lib\Win32\lp_solve transitNet_x64.lib liblpsolve55d.lib liblpsolve55.lib lpsolve55.lib "libnlopt-0.lib" shapelib.lib gdal_i.lib proj_i.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\..\..\bin\Win32\trafficDriver.pdb" /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\..\bin\Win32\trafficDriver.lib" /MACHINE:X86 /SAFESEH Win32\Release\trafficDriver.obj
+     1>LINK : fatal error LNK1181: 无法打开输入文件“transitNet_x64.lib”
+     1>已完成生成项目“D:\Code\SZProj\Source\ExeDriver\trafficDriver\trafficDriver.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.70
