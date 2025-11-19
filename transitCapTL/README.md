@@ -22,7 +22,7 @@ The transitCapTL algorithm is a hyeprpath-based algorithm designed for solving t
 The first part (main problem) solves the CTEAP through the algorithmic frameworks based on the method of multipliers (MOM) or the internal penalty functions (IPF) method.
 The second part (subproblem) solves the uncapacitated TEAP subproblem by the hyperpath-based Greedy or GP algorithms.
 
-### How to Run the Algorithm
+## How to Run the Algorithm
 •	Open the solution in ‘./transitCapTL/Source/Solution/mySolution.sln’ using Visual Studio 2012.
 
 •	The main function is located in ‘TEAPDriver.cpp’ in the ‘transitDriver’ project.
