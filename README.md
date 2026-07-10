@@ -53,5 +53,7 @@ This package is written and maintained by the Open-TNM Core Team. The current me
   
   Qianni Wang     (Northwestern University)
 
+  Xiaobo Liu      (Southwest Jiaotong University)
+
 
 
