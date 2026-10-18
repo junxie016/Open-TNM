@@ -1,0 +1,35 @@
+# Visual Studio user data and caches
+**/.vs/
+*.suo
+*.user
+*.sdf
+*.opensdf
+*.VC.db
+*.ipch
+
+# Build directories
+/bin/
+**/Debug/
+**/Release/
+
+# Compiler and linker outputs
+*.obj
+*.pch
+*.pdb
+*.ilk
+*.exp
+*.tlog
+*.lastbuildstate
+*.recipe
+*.Build.CppClean.log
+
+# Generated algorithm outputs
+*.ite
+*.lfp
+*.oue
+*.omeue
+*.opro
+*.pth
+*.rr
+*.ent
+*_olinkflow.txt
